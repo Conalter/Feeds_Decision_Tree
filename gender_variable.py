@@ -3,7 +3,8 @@ def gender_variable(gender):
         return m_procedure()
     elif gender == "female":
         return f_procedure()
-        else print "Please state gender."
+    else:
+        print "Please state gender."
 
 def m_procedure():
     print "this is the energy requirements for a male patient"
