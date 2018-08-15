@@ -1,3 +1,3 @@
-from gender_variable import gender_variable
+from gender_variable import gender_variable as gv
 
-gender_variable("female")
+gv("female")
