@@ -4,13 +4,13 @@ def gender_variable(gender):
     elif gender == "female":
         return f_procedure()
     else:
-        print "Please state gender."
+        print "Please state correct gender."
 
 def m_procedure():
-    print "this is the energy requirements for a male patient"
+    print "What follows is the energy requirements for a male patient: "
 
 def f_procedure():
-    print "this is the energy requirements for a female patient"
+    print "What follows is the energy requirements for a female patient: "
 
 
         # def fib(n):
